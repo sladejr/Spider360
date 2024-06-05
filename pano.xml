@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.13" id="node1" apprev="18080">
+  <input levelbias="0.400" levelingroll="0" width="2000" levelbiashidpi="1.000" height="2000" levelingpitch="0" overlap="1" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+    <level width="2000" preload="0" height="2000" predecode="0"/>
+    <level width="1000" preload="0" height="1000" predecode="0"/>
+    <level width="500" preload="1" height="500" predecode="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view pannorth="0" fovmode="0">
+    <start fov="117" tilt="5.48" pan="0.78" projection="9"/>
+    <flyin fov="170" tilt="-90" pan="0" projection="9"/>
+    <min tilt="-90" pan="0" fovpixel="2"/>
+    <max fov="120" tilt="90" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360"/>
+  </view>
+  <userdata heading="0" title="" copyright="" latitude="" source="" datetime="" nodeid="node1" author="" customnodeid="" tags="psd" comment="" description="" info="" longitude=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" height="20" textcolor="0x000000" border="1" textalpha="1"/>
+    <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0"/>
+  </hotspots>
+  <media>
+    <lensflare alpha="80.000" blinding="50.000" tilt="52.400" id="Lensflare01" color="0xffffff" pan="-202.570" type="1"/>
+  </media>
+  <transition blendtime="1" zoomafterinfov="90" blendcolor="0x000000" softedge="0" zoomspeed="2" enabled="1" zoomout="0" type="crossdissolve" zoomafteroutfov="20" zoomin="0" zoomfov="20" zoomoutpause="1"/>
+  <autorotate noderandom="1" returntohorizon="0.000" nodefilter="" useanimation="0" enabled="1" speed="-0.025" nodedelay="0.00" delay="0.50" startloaded="0"/>
+  <flyintransition enabled="1" speed="2.00"/>
+  <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+  <control invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" contextprojections="0" simulatemass="1" contextvr="1" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="0" hideabout="0" sensitivity="8"/>
+</panorama>
